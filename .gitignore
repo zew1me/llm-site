@@ -1,0 +1,87 @@
+# Sources:
+# - https://github.com/github/gitignore/blob/main/Node.gitignore
+# - https://github.com/github/gitignore/blob/main/Nextjs.gitignore
+# - https://github.com/github/gitignore/blob/main/Global/macOS.gitignore
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pnpm-debug.log*
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+jspm_packages/
+web_modules/
+
+# Package manager and tool caches
+.npm
+.pnpm-store
+.parcel-cache
+.eslintcache
+.stylelintcache
+.node_repl_history
+
+# Test and coverage output
+coverage
+*.lcov
+.nyc_output
+
+# Build output
+.next/
+out/
+build/
+dist/
+.cache
+.cache/
+.temp
+.vite/
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Vercel
+.vercel
+
+# Misc package artifacts
+*.tgz
+
+# macOS
+.DS_Store
+__MACOSX/
+.AppleDouble
+.LSOverride
+Icon[ ]
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
