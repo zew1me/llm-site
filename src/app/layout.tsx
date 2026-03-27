@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "llm-site",
-  description: "A Next.js site scaffold.",
+  title: "Large Language Music",
+  description:
+    "Large Language Music is a minimal label for synthetic voices, uncanny hooks, and machine-born sound.",
 };
 
 type RootLayoutProps = Readonly<{
